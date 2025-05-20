@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
@@ -9,6 +8,8 @@ import AchievementsSection from '@/components/AchievementsSection';
 import CollaborateSection from '@/components/CollaborateSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
+
+// Ensure filename matches import: Index.tsx (or rename file to index.tsx and update import in App.tsx accordingly)
 
 const Index: React.FC = () => {
   return (
