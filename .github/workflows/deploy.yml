@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [ ttv, main ]
   workflow_dispatch:
 
 permissions:
@@ -29,8 +29,6 @@ jobs:
         run: npm install
       - name: Build
         run: npm run build
-        env:
-          DEPLOY_ENV: GH_PAGES
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact

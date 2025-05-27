@@ -4,12 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 // If deploying to a subpath (like GitHub Pages), set the base accordingly.
-// Example: base: '/techtalksvirtually/'
-// For Netlify/Vercel main domain, base can remain "/".
-const base =
-  process.env.DEPLOY_ENV === "GH_PAGES"
-    ? "/techtalksvirtually/"
-    : "/";
+const base = "/techtalksvirtually/";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
