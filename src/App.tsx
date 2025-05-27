@@ -1,3 +1,10 @@
+import React from 'react';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import AboutSection from './components/AboutSection';
+import WhatWeDoSection from './components/WhatWeDoSection';
+import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -15,8 +22,18 @@ const App = () => (
       <Sonner />
       <BrowserRouter basename="/techtalksvirtually">
         <Routes>
-          <Route path="/" element={<Index />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="/" element={
+            <div className="min-h-screen bg-white">
+              <Navbar />
+              <main>
+                <Hero />
+                <AboutSection />
+                <WhatWeDoSection />
+                <ContactSection />
+              </main>
+              <Footer />
+            </div>
+          } />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
