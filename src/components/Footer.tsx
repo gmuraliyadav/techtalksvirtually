@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">TechTalks Scene</h3>
+            <h3 className="text-xl font-bold mb-4">Tech Talks Virtually With AI</h3>
             <p className="text-white/80">
               Creating custom AI solutions and innovative technologies for businesses of all sizes.
             </p>
@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-white/20 mt-8 pt-6 text-center text-white/60">
-          <p>© {currentYear} G Murali Yadav | TechTalks Scene. All Rights Reserved.</p>
+          <p>© {currentYear} G Murali Yadav | Tech Talks Virtually With AI. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

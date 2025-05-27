@@ -120,7 +120,7 @@ const ContactSection: React.FC = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900">Brand</h3>
-                      <p className="text-gray-600">TechTalks Scene</p>
+                      <p className="text-gray-600">Tech Talks Virtually With AI</p>
                     </div>
                   </div>
                 </div>
